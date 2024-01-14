@@ -8,7 +8,7 @@ void test_case(int& tc) {
 	for (int i = 0; i < n; i++)
 		cin >> a[i];
 	sort(a, a + n);
-	int mx = *max_element(a, a + n);
+	int mx = a[n-1];
 	int freq[mx+1], ops[mx+1];
 	memset(ops, 0, sizeof(ops));
 	memset(freq, 0, sizeof(freq));
