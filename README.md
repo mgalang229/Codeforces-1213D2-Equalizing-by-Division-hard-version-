@@ -8,7 +8,7 @@ for (int x = 1; x <= 111; x++) {
       copy /= 2;
       cout << copy << " ";
       if (copy == 0)
-      break;
+        break;
   }
   cout << "\n";
 }
